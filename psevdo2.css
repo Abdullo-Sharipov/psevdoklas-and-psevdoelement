@@ -1,0 +1,39 @@
+h1::selection {
+    background-color: greenyellow;
+    color: white;
+}
+
+a:hover {
+    background: black;
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  p {
+    font-size: 1.3em;
+  }
+  
+.pryamougolnik {
+    background-color: aqua;
+}
+
+.pryamougolnik::after {
+    content: "Посмотрите сюда!Вот он";
+    background-color: red;
+    border-style: inset;
+    color: white;
+}
+body {
+    background-color: chocolate;
+}
+
+q::before {
+    content: "«";
+    color: floralwhite;
+}
+
+q::after {
+    content: "»";
+    color: greenyellow;
+}
